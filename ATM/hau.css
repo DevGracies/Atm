@@ -1,0 +1,58 @@
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: rgb(152, 2, 2);
+  text-align: center;
+  margin: 20%;
+  animation-name: change;
+  animation-duration: 3s;
+}
+
+h1 {
+  font: 800px;
+}
+button {
+  animation-name: button;
+  animation-duration: 5s;
+  width: 150px;
+  height: 50px;
+  border: none;
+  color: brown;
+  cursor: pointer;
+  border-radius: 4px 4px 4px 4px;
+  margin: 20px;
+  transition: width 2s;
+}
+button:hover {
+  width: 100px;
+}
+
+@keyframes change {
+  from {
+    color: #fff;
+  }
+  to {
+    color: black;
+  }
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: rgb(175, 88, 194);
+  }
+  100% {
+    background-color: red;
+  }
+}
+@keyframes button {
+  from {
+    color: #fff;
+  }
+  to {
+    color: black;
+  }
+}
